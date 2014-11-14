@@ -1,0 +1,10 @@
+.col-xs-6(ng-repeat="space in spaces | orderBy:'published':true")
+    .panel.panel-primary
+        .panel-heading
+            .panel-title {{space.name}}
+        .panel-body
+            li   {{space.size}}
+
+
+
+
